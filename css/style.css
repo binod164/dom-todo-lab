@@ -4,5 +4,6 @@ body,div {
 
 ul {
   display: inline-block;
+  text-align: left;
 }
 
