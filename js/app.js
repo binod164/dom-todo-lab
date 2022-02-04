@@ -1,6 +1,11 @@
 const inp = document.querySelector("#enterToDo")
 const btn = document.querySelector("#submit-button")
 const list = document.querySelector("#todo-list")
+const resetBtn = document.querySelector("#reset-button")
+
+resetBtn.addEventListener('click', function(evt) {
+list.innerHTML = "";
+})
 
 btn.addEventListener('click', function(evt) {
 const li = document.createElement('li')
