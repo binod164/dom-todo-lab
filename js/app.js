@@ -11,8 +11,8 @@ btn.addEventListener('click', function(evt) {
 const li = document.createElement('li')
 li.textContent = inp.value
 if(inp.value !== ""){
-inp.value=""
 list.appendChild(li)
+inp.value=""
 }
 })
 
