@@ -4,16 +4,16 @@ const list = document.querySelector("#todo-list")
 const resetBtn = document.querySelector("#reset-button")
 
 resetBtn.addEventListener('click', function(evt) {
-list.innerHTML = "";
+  list.innerHTML = "";
 })
 
 btn.addEventListener('click', function(evt) {
-const li = document.createElement('li')
-li.textContent = inp.value
-if(inp.value !== ""){
-list.appendChild(li)
-inp.value=""
-}
+  const li = document.createElement('li')
+  li.textContent = inp.value
+  if(inp.value !== ""){
+    list.appendChild(li)
+    inp.value=""
+  }
 })
 
 list.addEventListener('click', function(evt){
